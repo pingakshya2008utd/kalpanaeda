@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalpana Chip — AI optimization layer for physical-design PPA</title>
 <meta name="description" content="Kalpana Chip is an AI agent that closes power, performance and area after RTL freeze, driving the EDA tools your team already uses.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --rust:#7C2D18; --rust-deep:#5f2011; --burnt:#A83F25; --terra:#C4623F;
@@ -26,7 +26,7 @@ a{color:inherit;text-decoration:none}
 header.nav{position:sticky;top:0;z-index:60;background:rgba(251,246,243,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav-in{display:flex;align-items:center;gap:14px;height:66px;max-width:1080px;margin:0 auto;padding:0 28px}
 .brand{display:flex;align-items:center;gap:11px;font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.5px;color:var(--rust)}
-.brand img{height:44px;width:auto;display:block}
+.brand img{height:56px;width:auto;display:block}
 .nav-links{margin-left:auto;display:flex;gap:8px;align-items:center}
 .nav-links a{font-size:14px;font-weight:500;color:var(--ink-soft);transition:color .15s,background .15s;padding:8px 14px;border-radius:8px}
 .nav-links a:hover{color:var(--rust)}
@@ -39,7 +39,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(251,246,243,.9);back
   .nav-links{position:absolute;top:66px;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 20px 18px;display:none}
   .nav-links.open{display:flex}
   .nav-links a{padding:12px 14px}
-  .brand img{height:38px}
+  .brand img{height:48px}
 }
 
 .btn{display:inline-block;font-weight:600;font-size:15px;border-radius:9px;padding:13px 26px;transition:transform .12s, box-shadow .12s, background .15s;cursor:pointer;border:none}
@@ -141,8 +141,76 @@ footer{background:#26140d;color:#d9b6a8;padding:44px 0}
     <a class="cta" href="contact.html">Contact</a>
   </nav>
 </div></header>
-<section class="pagehead" style="text-align:center"><div class="pagehead-in"><div class="eyebrow" style="text-align:center">AI-native physical design</div><h1 style="max-width:860px;margin-left:auto;margin-right:auto">The AI optimization layer for PPA,<br>across every toolchain.</h1><p style="margin:0 auto 30px;font-family:var(--serif);font-style:italic;font-size:17px;color:#e0bdb0">&ldquo;Kalpana&rdquo;: imagination, in Sanskrit</p><p style="max-width:660px;margin:0 auto 34px;font-size:19px;color:#f2ddd4">Kalpana Chip is an intelligent agent that closes power, performance and area after RTL freeze. It drives the tools your team already runs and learns the optimal recipe automatically &mdash; so engineers spend their time on design, not on tuning.</p><div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap"><a class="btn btn-primary" href="demo.html" style="background:var(--cream);color:var(--rust)">Try the interactive demo</a><a class="btn btn-ghost" href="technology.html" style="color:var(--cream);border-color:rgba(247,238,234,.35)">How it works &rarr;</a></div></div></section>
-<footer><div class="wrap foot"><a class="brand" href="index.html">Kalpana Chip</a><div class="fnav"><a href="index.html">Home</a><a href="technology.html">Technology</a><a href="demo.html">Interactive Demo</a><a href="contact.html">Contact</a></div><div class="copy">&copy; 2026 Kalpana Chip &middot; <a href="mailto:hello@kalpanachip.com">hello@kalpanachip.com</a> &middot; An AI optimization layer for physical-design PPA.</div></div></footer>
+<section class="pagehead" style="text-align:center"><div class="pagehead-in"><div class="eyebrow" style="text-align:center">AI-native physical design</div><h1 style="max-width:860px;margin-left:auto;margin-right:auto">The AI optimization layer for PPA, across every toolchain.</h1><p style="max-width:640px;margin-left:auto;margin-right:auto;font-style:italic">"Kalpana": imagination, in Sanskrit</p><p style="max-width:640px;margin:18px auto 0">Kalpana Chip is an intelligent agent that closes power, performance and area after RTL freeze. It drives the tools your team already runs and learns the optimal recipe automatically — so engineers spend their time on design, not on tuning.</p><div style="margin-top:30px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap"><a class="btn btn-primary" style="background:var(--cream);color:var(--rust)" href="demo.html">Try the interactive demo</a><a class="btn btn-ghost" style="border-color:rgba(255,255,255,.4);color:var(--cream)" href="technology.html">How it works →</a></div></div></section>
+
+<section class="band paper"><div class="wrap">
+  <div class="sec-head center">
+    <div class="eyebrow">Why Kalpana Chip</div>
+    <h2>Close the loop your tools can't close alone</h2>
+    <p>Standard EDA tools stop at reporting timing, power and area. Kalpana Chip goes further — reasoning over the results and driving the next iteration automatically.</p>
+  </div>
+  <div class="grid g3">
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Faster convergence</h3>
+      <p>Compress days of manual constraint tuning into automated iterations that run continuously.</p>
+    </div>
+    <div class="card tint">
+      <div class="icon">🔧</div>
+      <h3>Tool-agnostic</h3>
+      <p>Works with the synthesis and place-and-route tools your team already relies on — no rip-and-replace.</p>
+    </div>
+    <div class="card solid">
+      <div class="icon">📊</div>
+      <h3>Measurable PPA gains</h3>
+      <p>Track power, performance and area improvements across every iteration with full transparency.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="band cream"><div class="wrap">
+  <div class="sec-head center">
+    <div class="eyebrow">The loop</div>
+    <h2>Observe, reason, act, repeat</h2>
+    <p>Kalpana Chip runs a continuous optimization loop against your existing flow.</p>
+  </div>
+  <div class="loop">
+    <div class="step">
+      <div class="k">Step 1</div>
+      <div class="stepicon">👁</div>
+      <h4>Observe</h4>
+      <p>Reads timing, power, and area reports directly from your EDA tool outputs.</p>
+    </div>
+    <div class="step">
+      <div class="k">Step 2</div>
+      <div class="stepicon">🧠</div>
+      <h4>Reason</h4>
+      <p>Uses a trained optimization agent to identify the highest-leverage changes.</p>
+    </div>
+    <div class="step">
+      <div class="k">Step 3</div>
+      <div class="stepicon">🛠</div>
+      <h4>Act</h4>
+      <p>Applies constraint, floorplan, or synthesis directive changes automatically.</p>
+    </div>
+    <div class="step">
+      <div class="k">Step 4</div>
+      <div class="stepicon">🔁</div>
+      <h4>Re-run &amp; Learn</h4>
+      <p>Triggers your existing tool flow again and learns from the new results.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="band paper"><div class="wrap">
+  <div class="ctastrip">
+    <h2>See the technology in action</h2>
+    <p>Try our interactive demo to explore how Kalpana Chip would optimize a sample design.</p>
+    <a class="btn btn-primary" href="demo.html">Try the Demo</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap foot"><a class="brand" href="index.html">Kalpana Chip</a><div class="fnav"><a href="index.html">Home</a><a href="technology.html">Technology</a><a href="demo.html">Interactive Demo</a><a href="contact.html">Contact</a></div><div class="copy">© 2026 Kalpana Chip. All rights reserved.</div></div></footer>
 <script>document.querySelectorAll('#navlinks a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('navlinks').classList.remove('open')})});</script>
 </body>
 </html>
