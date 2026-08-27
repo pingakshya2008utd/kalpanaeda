@@ -26,7 +26,7 @@ a{color:inherit;text-decoration:none}
 header.nav{position:sticky;top:0;z-index:60;background:rgba(251,246,243,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav-in{display:flex;align-items:center;gap:14px;height:66px;max-width:1080px;margin:0 auto;padding:0 28px}
 .brand{display:flex;align-items:center;gap:11px;font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.5px;color:var(--rust)}
-.brand img{width:30px;height:30px}
+.brand img{height:44px;width:auto;display:block}
 .nav-links{margin-left:auto;display:flex;gap:8px;align-items:center}
 .nav-links a{font-size:14px;font-weight:500;color:var(--ink-soft);transition:color .15s,background .15s;padding:8px 14px;border-radius:8px}
 .nav-links a:hover{color:var(--rust)}
@@ -39,6 +39,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(251,246,243,.9);back
   .nav-links{position:absolute;top:66px;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 20px 18px;display:none}
   .nav-links.open{display:flex}
   .nav-links a{padding:12px 14px}
+  .brand img{height:38px}
 }
 
 .btn{display:inline-block;font-weight:600;font-size:15px;border-radius:9px;padding:13px 26px;transition:transform .12s, box-shadow .12s, background .15s;cursor:pointer;border:none}
@@ -106,7 +107,7 @@ footer{background:#26140d;color:#d9b6a8;padding:44px 0}
 </head>
 <body>
 <header class="nav"><div class="nav-in">
-  <a class="brand" href="index.html">Kalpana Chip</a>
+  <a class="brand" href="index.html"><img src="Code_Generated_Image.png" alt="Kalpana Eda logo">Kalpana Chip</a>
   <button class="menutoggle" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">&#9776;</button>
   <nav class="nav-links" id="navlinks">
     <a href="index.html">Home</a>
